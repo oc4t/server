@@ -1,0 +1,851 @@
+[16:24:02] [main/INFO]: Loading Minecraft 1.21.6 with Fabric Loader 0.17.2
+[16:24:02] [ForkJoinPool-1-worker-8/WARN]: The mod "tcdcommons" contains invalid entries in its mod json:
+- Unsupported root entry "" at line 27 column 4
+- Unsupported root entry "" at line 27 column 198
+- Unsupported root entry "" at line 29 column 4
+- Unsupported root entry "" at line 29 column 24
+[16:24:02] [ForkJoinPool-1-worker-6/WARN]: Mod lootr uses the version fabric-1.21.6-1.16.39.96 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[16:24:02] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.6.4 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Naturally Trimmed' (naturally_trimmed) 3.0.8 recommends version 14.0.0-rc.1 or later of modmenu, which is missing!
+	 - You should install version 14.0.0-rc.1 or later of modmenu for the optimal experience.
+[16:24:02] [main/INFO]: Loading 158 mods:
+	- animal_feeding_trough 1.1.5+1.21.6
+	- animalgarden_meerkat 1.0.1
+	- animalgarden_owl 0.127.0
+	- animalgarden_porcupine 0.127.0
+	- architectury 17.0.6
+	- bettertridents 21.6.0
+	- cloth-config 19.0.147
+	   \-- cloth-basic-math 0.6.1
+	- clumps 24.0.0.2
+	- collective 8.4
+	- cristellib 2.0.3
+	   \-- blue_endless_jankson 1.2.3
+	- fabric-api 0.128.2+1.21.6
+	   |-- fabric-api-base 0.4.64+9ec45cd896
+	   |-- fabric-api-lookup-api-v1 1.6.100+946bf4c396
+	   |-- fabric-biome-api-v1 16.0.11+946bf4c396
+	   |-- fabric-block-api-v1 1.1.3+946bf4c396
+	   |-- fabric-block-view-api-v2 1.0.31+946bf4c396
+	   |-- fabric-command-api-v2 2.2.53+946bf4c396
+	   |-- fabric-content-registries-v0 10.0.18+946bf4c396
+	   |-- fabric-convention-tags-v1 2.1.38+7f945d5b96
+	   |-- fabric-convention-tags-v2 2.15.3+946bf4c396
+	   |-- fabric-crash-report-info-v1 0.3.15+946bf4c396
+	   |-- fabric-data-attachment-api-v1 1.8.10+946bf4c396
+	   |-- fabric-data-generation-api-v1 23.2.3+c265f73696
+	   |-- fabric-dimensions-v1 4.0.19+946bf4c396
+	   |-- fabric-entity-events-v1 2.1.1+c9e4727396
+	   |-- fabric-events-interaction-v0 4.0.23+946bf4c396
+	   |-- fabric-game-rule-api-v1 1.0.73+12a186f696
+	   |-- fabric-item-api-v1 11.4.3+946bf4c396
+	   |-- fabric-item-group-api-v1 4.2.13+946bf4c396
+	   |-- fabric-key-binding-api-v1 1.0.65+946bf4c396
+	   |-- fabric-lifecycle-events-v1 2.6.3+db4dfd8596
+	   |-- fabric-loot-api-v2 3.0.55+3f89f5a596
+	   |-- fabric-loot-api-v3 2.0.2+946bf4c396
+	   |-- fabric-message-api-v1 6.1.1+946bf4c396
+	   |-- fabric-model-loading-api-v1 5.2.5+946bf4c396
+	   |-- fabric-networking-api-v1 5.0.1+946bf4c396
+	   |-- fabric-object-builder-api-v1 21.1.7+946bf4c396
+	   |-- fabric-particles-v1 4.1.7+946bf4c396
+	   |-- fabric-recipe-api-v1 8.1.14+946bf4c396
+	   |-- fabric-registry-sync-v0 6.1.27+946bf4c396
+	   |-- fabric-renderer-api-v1 7.0.2+946bf4c396
+	   |-- fabric-renderer-indigo 4.0.2+946bf4c396
+	   |-- fabric-rendering-fluids-v1 3.1.30+fa6cb72b96
+	   |-- fabric-rendering-v1 12.4.0+e8d43c7696
+	   |-- fabric-resource-conditions-api-v1 5.0.24+946bf4c396
+	   |-- fabric-resource-loader-v0 3.1.11+946bf4c396
+	   |-- fabric-screen-api-v1 2.0.51+946bf4c396
+	   |-- fabric-screen-handler-api-v1 1.3.136+946bf4c396
+	   |-- fabric-sound-api-v1 1.0.42+946bf4c396
+	   |-- fabric-tag-api-v1 1.2.1+946bf4c396
+	   |-- fabric-transfer-api-v1 6.0.5+946bf4c396
+	   \-- fabric-transitive-access-wideners-v1 6.4.1+ac3e15d196
+	- fabric-language-kotlin 1.13.4+kotlin.2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.28.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- fallingtree 1.21.6.7
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.6.4
+	   |-- com_electronwill_night-config_core 3.8.2
+	   \-- com_electronwill_night-config_toml 3.8.2
+	- friendsandfoes 4.0.8
+	- fusion 1.2.10
+	- infinitetrading 4.6
+	- itemsigns 1.1.0
+	- java 23
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.17.0+mc1.21.6
+	- lootr fabric-1.21.6-1.16.39.96
+	- midnightlib 1.7.5
+	- minecraft 1.21.6
+	- mr_dungeons_andtaverns 1-v4.7.3
+	- mr_jakes_buildtools 4.0.1
+	- mr_true_ending 1-v1.1.4b
+	- mr_vanilla_backpacks 1.3.4
+	- mvs 4.4.6-1.21.5-6-fabric
+	- naturally_trimmed 3.0.8
+	   |-- org_quiltmc_parsers_gson 0.3.1
+	   \-- org_quiltmc_parsers_json 0.3.1
+	- polydecorations 0.8.0+1.21.6
+	   |-- common-protection-api 1.0.0
+	   |-- factorytools 0.7.0+1.21.6
+	   |-- map-canvas-api 0.5.0+1.21.3
+	   \-- sgui 1.10.0+1.21.6
+	- polymer-bundled 0.13.2+1.21.6
+	   |-- polymer-autohost 0.13.2+1.21.6
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.13.2+1.21.6
+	   |-- polymer-common 0.13.2+1.21.6
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-core 0.13.2+1.21.6
+	   |    |-- polymer-networking 0.13.2+1.21.6
+	   |    |    \-- polymer-common 0.13.2+1.21.6
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.13.2+1.21.6
+	   |-- polymer-resource-pack 0.13.2+1.21.6
+	   |    \-- polymer-common 0.13.2+1.21.6
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-resource-pack-extras 0.13.2+1.21.6
+	   |-- polymer-sound-patcher 0.13.2+1.21.6
+	   \-- polymer-virtual-entity 0.13.2+1.21.6
+	        \-- polymer-common 0.13.2+1.21.6
+	             \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	- puzzleslib 21.6.6
+	- raknetify 0.1.0+alpha.5.174
+	- rechiseled 1.1.6+b
+	- resourcefullib 3.6.0
+	   |-- com_teamresourceful_bytecodecs 1.1.3
+	   \-- com_teamresourceful_yabn 1.0.3
+	- servercore 1.5.13+1.21.6
+	   |-- fabric-permissions-api-v0 0.4.0-SNAPSHOT
+	   |-- org_yaml_snakeyaml 2.4
+	   |-- placeholder-api 2.7.0+1.21.6
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- silk-all 1.11.2
+	   |-- silk-commands 1.11.2
+	   |-- silk-core 1.11.2
+	   |-- silk-game 1.11.2
+	   |-- silk-igui 1.11.2
+	   |-- silk-nbt 1.11.2
+	   |-- silk-network 1.11.2
+	   \-- silk-persistence 1.11.2
+	- strawberrylib 1.21.6-r1
+	   |-- cardinal-components-base 7.0.0-beta.1
+	   |-- cardinal-components-entity 7.0.0-beta.1
+	   \-- datasync_minecraft 0.10.0
+	- superbsteeds 1.21.6-r1
+	- supermartijn642configlib 1.1.8
+	- supermartijn642corelib 1.1.18+d
+	- t_and_t 1.13.5
+	- tcdcommons 3.12.8-beta.1+fabric-1.21.6
+	- terra 6.6.4-BETA+68d5b22ca
+	   \-- cloud 2.0.0-beta.10
+	        |-- io_leangen_geantyref_geantyref 1.3.15
+	        |-- org_incendo_cloud-brigadier 2.0.0-beta.10
+	        |-- org_incendo_cloud-core 2.0.0
+	        |-- org_incendo_cloud-minecraft-modded-common-fabric-repack 2.0.0-beta.10
+	        \-- org_incendo_cloud-services 2.0.0
+	- trade_cycling 1.21.6-1.0.19
+	   |-- fabric-key-binding-api-v1 1.0.64+9ec45cd89c
+	   \-- fabric-screen-api-v1 2.0.50+908cbc919c
+	- universal-graves 3.8.1+1.21.6
+	   |-- common-protection-api 1.0.0
+	   |-- placeholder-api 2.7.0+1.21.6
+	   |-- polymer-core 0.13.2+1.21.6
+	   |    |-- polymer-networking 0.13.2+1.21.6
+	   |    |    \-- polymer-common 0.13.2+1.21.6
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.13.2+1.21.6
+	   |-- polymer-resource-pack 0.13.2+1.21.6
+	   |    \-- polymer-common 0.13.2+1.21.6
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-virtual-entity 0.13.2+1.21.6
+	   |    \-- polymer-common 0.13.2+1.21.6
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- predicate-api 0.6.0+1.21.2
+	   |-- server_translations_api 2.5.1+1.21.5
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- sgui 1.10.0+1.21.6
+	- vaulted-end 1.3.2
+	- veinminer 2.4.8
+	   |-- de_miraculixx_core_dev 2.4.8
+	   \-- fabric-permissions-api-v0 0.4.0-SNAPSHOT
+	- visibletraders 0.1.1.2
+	- voicechat 1.21.6-2.5.32
+	   |-- fabric-key-binding-api-v1 1.0.64+9ec45cd89c
+	   \-- fabric-rendering-v1 12.3.0+ac3e15d19c
+	- weaponmaster_ydm 4.4.1
+	- yet_another_config_lib_v3 3.7.1+1.21.6-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   \-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+[16:24:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/Users/thomas/Documents/mc/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:24:02] [main/INFO]: Compatibility level set to JAVA_21
+[16:24:02] [main/WARN]: Reference map 'cristellib-common-common-refmap.json' for cristellib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:24:02] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:24:02] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[16:24:02] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[16:24:02] [main/WARN]: Reference map 'rechiseled.mixins.refmap.json' for rechiseled.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:24:02] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:24:02] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:24:02] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:24:03] [main/WARN]: Error loading class: net/minecraft/class_2539$class_4532 (java.lang.ClassNotFoundException: net/minecraft/class_2539$class_4532)
+[16:24:03] [main/WARN]: @Mixin target net/minecraft/class_2539$class_4532 was not found raknetify-fabric.mixins.json:access.INetworkStateInternalPacketHandler from mod raknetify
+[16:24:03] [main/WARN]: Error loading class: org/quiltmc/qsl/networking/impl/server/ServerLoginNetworkAddon (java.lang.ClassNotFoundException: org/quiltmc/qsl/networking/impl/server/ServerLoginNetworkAddon)
+[16:24:03] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[16:24:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16:24:10] [main/INFO]: C2ME not found.
+[16:24:10] [main/INFO]: Moonrise not found.
+[16:24:10] [main/INFO]: Initializing Terra...
+[16:24:10] [main/INFO]: Loading config.yml
+[16:24:10] [main/INFO]: Loading config values from config.yml
+[16:24:10] [main/WARN]: Mod clumps, version 24.0.0.2 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod collective, version 8.4 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod fallingtree, version 1.21.6.7 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod infinitetrading, version 4.6 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod lootr, version fabric-1.21.6-1.16.39.96 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod mr_dungeons_andtaverns, version 1-v4.7.3 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod mr_true_ending, version 1-v1.1.4b does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod org_yaml_snakeyaml, version 2.4 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/WARN]: Mod visibletraders, version 0.1.1.2 does not follow semantic versioning specification, Terra addons will be unable to depend on it.
+[16:24:10] [main/INFO]: Loading 184 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+68d5b22ca
+        - biome-provider-image@1.0.1-BETA+68d5b22ca
+        - biome-provider-image-v2@1.0.1-BETA+68d5b22ca
+        - biome-provider-pipeline@1.0.2-BETA+68d5b22ca
+        - biome-provider-pipeline-v2@1.0.1-BETA+68d5b22ca
+        - biome-provider-single@1.0.0-BETA+68d5b22ca
+        - biome-query-api@1.0.0-BETA+68d5b22ca
+        - chunk-generator-noise-3d@1.2.1-BETA+68d5b22ca
+        - command-addons@1.0.0-BETA+68d5b22ca
+        - command-packs@1.0.0-BETA+68d5b22ca
+        - command-profiler@1.0.0-BETA+68d5b22ca
+        - command-structures@1.0.0-BETA+68d5b22ca
+        - config-biome@1.0.0-BETA+68d5b22ca
+        - config-distributors@1.0.1-BETA+68d5b22ca
+        - config-feature@1.0.0-BETA+68d5b22ca
+        - config-flora@1.0.1-BETA+68d5b22ca
+        - config-locators@1.1.1-BETA+68d5b22ca
+        - config-noise-function@1.2.0-BETA+68d5b22ca
+        - config-number-predicate@1.0.0-BETA+68d5b22ca
+        - config-ore@1.1.1-BETA+68d5b22ca
+        - config-palette@1.0.0-BETA+68d5b22ca
+        - config-structure@1.0.1-BETA+68d5b22ca
+        - fabric:animal_feeding_trough@1.1.5+1.21.6
+        - fabric:animalgarden_meerkat@1.0.1
+        - fabric:animalgarden_owl@0.127.0
+        - fabric:animalgarden_porcupine@0.127.0
+        - fabric:architectury@17.0.6
+        - fabric:bettertridents@21.6.0
+        - fabric:blue_endless_jankson@1.2.3
+        - fabric:cardinal-components-base@7.0.0-beta.1
+        - fabric:cardinal-components-entity@7.0.0-beta.1
+        - fabric:cloth-basic-math@0.6.1
+        - fabric:cloth-config@19.0.147
+        - fabric:cloud@2.0.0-beta.10
+        - fabric:com_electronwill_night-config_core@3.8.2
+        - fabric:com_electronwill_night-config_toml@3.8.2
+        - fabric:com_teamresourceful_bytecodecs@1.1.3
+        - fabric:com_teamresourceful_yabn@1.0.3
+        - fabric:com_twelvemonkeys_common_common-image@3.12.0
+        - fabric:com_twelvemonkeys_common_common-io@3.12.0
+        - fabric:com_twelvemonkeys_common_common-lang@3.12.0
+        - fabric:com_twelvemonkeys_imageio_imageio-core@3.12.0
+        - fabric:com_twelvemonkeys_imageio_imageio-metadata@3.12.0
+        - fabric:com_twelvemonkeys_imageio_imageio-webp@3.12.0
+        - fabric:com_velocitypowered_velocity-native@3.4.0-SNAPSHOT
+        - fabric:common-protection-api@1.0.0
+        - fabric:cristellib@2.0.3
+        - fabric:datasync_minecraft@0.10.0
+        - fabric:de_miraculixx_core_dev@2.4.8
+        - fabric:fabric-api@0.128.2+1.21.6
+        - fabric:fabric-api-base@0.4.64+9ec45cd896
+        - fabric:fabric-api-lookup-api-v1@1.6.100+946bf4c396
+        - fabric:fabric-biome-api-v1@16.0.11+946bf4c396
+        - fabric:fabric-block-api-v1@1.1.3+946bf4c396
+        - fabric:fabric-block-view-api-v2@1.0.31+946bf4c396
+        - fabric:fabric-command-api-v2@2.2.53+946bf4c396
+        - fabric:fabric-content-registries-v0@10.0.18+946bf4c396
+        - fabric:fabric-convention-tags-v1@2.1.38+7f945d5b96
+        - fabric:fabric-convention-tags-v2@2.15.3+946bf4c396
+        - fabric:fabric-crash-report-info-v1@0.3.15+946bf4c396
+        - fabric:fabric-data-attachment-api-v1@1.8.10+946bf4c396
+        - fabric:fabric-data-generation-api-v1@23.2.3+c265f73696
+        - fabric:fabric-dimensions-v1@4.0.19+946bf4c396
+        - fabric:fabric-entity-events-v1@2.1.1+c9e4727396
+        - fabric:fabric-events-interaction-v0@4.0.23+946bf4c396
+        - fabric:fabric-game-rule-api-v1@1.0.73+12a186f696
+        - fabric:fabric-item-api-v1@11.4.3+946bf4c396
+        - fabric:fabric-item-group-api-v1@4.2.13+946bf4c396
+        - fabric:fabric-language-kotlin@1.13.4+kotlin.2.2.0
+        - fabric:fabric-lifecycle-events-v1@2.6.3+db4dfd8596
+        - fabric:fabric-loot-api-v2@3.0.55+3f89f5a596
+        - fabric:fabric-loot-api-v3@2.0.2+946bf4c396
+        - fabric:fabric-message-api-v1@6.1.1+946bf4c396
+        - fabric:fabric-networking-api-v1@5.0.1+946bf4c396
+        - fabric:fabric-object-builder-api-v1@21.1.7+946bf4c396
+        - fabric:fabric-particles-v1@4.1.7+946bf4c396
+        - fabric:fabric-permissions-api-v0@0.4.0-SNAPSHOT
+        - fabric:fabric-recipe-api-v1@8.1.14+946bf4c396
+        - fabric:fabric-registry-sync-v0@6.1.27+946bf4c396
+        - fabric:fabric-rendering-fluids-v1@3.1.30+fa6cb72b96
+        - fabric:fabric-resource-conditions-api-v1@5.0.24+946bf4c396
+        - fabric:fabric-resource-loader-v0@3.1.11+946bf4c396
+        - fabric:fabric-screen-handler-api-v1@1.3.136+946bf4c396
+        - fabric:fabric-tag-api-v1@1.2.1+946bf4c396
+        - fabric:fabric-transfer-api-v1@6.0.5+946bf4c396
+        - fabric:fabric-transitive-access-wideners-v1@6.4.1+ac3e15d196
+        - fabric:fabricloader@0.17.2
+        - fabric:factorytools@0.7.0+1.21.6
+        - fabric:ferritecore@8.0.0
+        - fabric:forgeconfigapiport@21.6.4
+        - fabric:friendsandfoes@4.0.8
+        - fabric:fusion@1.2.10
+        - fabric:io_leangen_geantyref_geantyref@1.3.15
+        - fabric:io_netty_netty-codec-http@4.1.82
+        - fabric:itemsigns@1.1.0
+        - fabric:krypton@0.2.9
+        - fabric:lithium@0.17.0+mc1.21.6
+        - fabric:map-canvas-api@0.5.0+1.21.3
+        - fabric:midnightlib@1.7.5
+        - fabric:mixinextras@0.5.0
+        - fabric:mr_jakes_buildtools@4.0.1
+        - fabric:mr_vanilla_backpacks@1.3.4
+        - fabric:mvs@4.4.6-1.21.5-6-fabric
+        - fabric:naturally_trimmed@3.0.8
+        - fabric:org_incendo_cloud-brigadier@2.0.0-beta.10
+        - fabric:org_incendo_cloud-core@2.0.0
+        - fabric:org_incendo_cloud-minecraft-modded-common-fabric-repack@2.0.0-beta.10
+        - fabric:org_incendo_cloud-services@2.0.0
+        - fabric:org_jetbrains_kotlin_kotlin-reflect@2.2.0
+        - fabric:org_jetbrains_kotlin_kotlin-stdlib@2.2.0
+        - fabric:org_jetbrains_kotlin_kotlin-stdlib-jdk7@2.2.0
+        - fabric:org_jetbrains_kotlin_kotlin-stdlib-jdk8@2.2.0
+        - fabric:org_jetbrains_kotlinx_atomicfu-jvm@0.28.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm@1.10.2
+        - fabric:org_jetbrains_kotlinx_kotlinx-coroutines-jdk8@1.10.2
+        - fabric:org_jetbrains_kotlinx_kotlinx-datetime-jvm@0.6.2
+        - fabric:org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm@0.7.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-io-core-jvm@0.7.0
+        - fabric:org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm@1.8.1
+        - fabric:org_jetbrains_kotlinx_kotlinx-serialization-core-jvm@1.8.1
+        - fabric:org_jetbrains_kotlinx_kotlinx-serialization-json-jvm@1.8.1
+        - fabric:org_quiltmc_parsers_gson@0.3.1
+        - fabric:org_quiltmc_parsers_json@0.3.1
+        - fabric:packet_tweaker@0.6.0-pre.1+1.21.2-pre3
+        - fabric:placeholder-api@2.7.0+1.21.6
+        - fabric:polydecorations@0.8.0+1.21.6
+        - fabric:polymer-autohost@0.13.2+1.21.6
+        - fabric:polymer-blocks@0.13.2+1.21.6
+        - fabric:polymer-bundled@0.13.2+1.21.6
+        - fabric:polymer-common@0.13.2+1.21.6
+        - fabric:polymer-core@0.13.2+1.21.6
+        - fabric:polymer-networking@0.13.2+1.21.6
+        - fabric:polymer-registry-sync-manipulator@0.13.2+1.21.6
+        - fabric:polymer-resource-pack@0.13.2+1.21.6
+        - fabric:polymer-resource-pack-extras@0.13.2+1.21.6
+        - fabric:polymer-sound-patcher@0.13.2+1.21.6
+        - fabric:polymer-virtual-entity@0.13.2+1.21.6
+        - fabric:predicate-api@0.6.0+1.21.2
+        - fabric:puzzleslib@21.6.6
+        - fabric:raknetify@0.1.0+alpha.5.174
+        - fabric:rechiseled@1.1.6+b
+        - fabric:resourcefullib@3.6.0
+        - fabric:server_translations_api@2.5.1+1.21.5
+        - fabric:servercore@1.5.13+1.21.6
+        - fabric:sgui@1.10.0+1.21.6
+        - fabric:silk-all@1.11.2
+        - fabric:silk-commands@1.11.2
+        - fabric:silk-core@1.11.2
+        - fabric:silk-game@1.11.2
+        - fabric:silk-igui@1.11.2
+        - fabric:silk-nbt@1.11.2
+        - fabric:silk-network@1.11.2
+        - fabric:silk-persistence@1.11.2
+        - fabric:space_arim_dazzleconf_dazzleconf-core@1.3.0-M2
+        - fabric:space_arim_dazzleconf_dazzleconf-ext-snakeyaml@1.3.0-M2
+        - fabric:strawberrylib@1.21.6-r1
+        - fabric:superbsteeds@1.21.6-r1
+        - fabric:supermartijn642configlib@1.1.8
+        - fabric:supermartijn642corelib@1.1.18+d
+        - fabric:t_and_t@1.13.5
+        - fabric:tcdcommons@3.12.8-beta.1+fabric-1.21.6
+        - fabric:trade_cycling@1.21.6-1.0.19
+        - fabric:universal-graves@3.8.1+1.21.6
+        - fabric:vaulted-end@1.3.2
+        - fabric:veinminer@2.4.8
+        - fabric:voicechat@1.21.6-2.5.32
+        - fabric:weaponmaster_ydm@4.4.1
+        - fabric:yet_another_config_lib_v3@3.7.1+1.21.6-fabric
+        - generation-stage-feature@1.1.0-BETA+68d5b22ca
+        - generation-stage-structure@1.0.0-BETA+68d5b22ca
+        - language-yaml@1.0.0-BETA+68d5b22ca
+        - library-image@1.1.0-BETA+68d5b22ca
+        - locator-slant-noise-3d@1.0.0-BETA+68d5b22ca
+        - minecraft@1.21.6
+        - palette-block-shortcut@1.0.0-BETA+68d5b22ca
+        - pipeline-image@1.0.0-BETA+68d5b22ca
+        - structure-block-shortcut@1.0.0-BETA+68d5b22ca
+        - structure-function-check-noise-3d@1.0.1-BETA+68d5b22ca
+        - structure-mutator@0.1.0-BETA+68d5b22ca
+        - structure-sponge-loader@1.0.0-BETA+68d5b22ca
+        - structure-terrascript-loader@1.2.0-BETA+68d5b22ca
+        - terra@1.0.0
+        - terra-fabric@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+68d5b22ca
+[16:24:10] [main/INFO]: Terra addons successfully loaded.
+[16:24:10] [main/INFO]: Finished initialization.
+[16:24:10] [main/INFO]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[16:24:10] [main/INFO]: [STDOUT]: All 4 have been set properly
+[16:24:10] [main/INFO]: [STDOUT]: animalgarden_meerkat: register everything...
+[16:24:10] [main/INFO]: [STDOUT]: All 4 have been set properly
+[16:24:10] [main/INFO]: [STDOUT]: forest
+[16:24:10] [main/INFO]: [STDOUT]: flower_forest
+[16:24:10] [main/INFO]: [STDOUT]: birch_forest
+[16:24:10] [main/INFO]: [STDOUT]: old_growth_birch_forest
+[16:24:10] [main/INFO]: [STDOUT]: snowy_taiga
+[16:24:10] [main/INFO]: [STDOUT]: animalgarden_owl: register everything...
+[16:24:10] [main/INFO]: [STDOUT]: All 4 have been set properly
+[16:24:10] [main/INFO]: [STDOUT]: forest
+[16:24:10] [main/INFO]: [STDOUT]: flower_forest
+[16:24:10] [main/INFO]: [STDOUT]: birch_forest
+[16:24:10] [main/INFO]: [STDOUT]: old_growth_birch_forest
+[16:24:10] [main/INFO]: [STDOUT]: animalgarden_porcupine: register everything...
+[16:24:11] [main/INFO]: Constructing components for bettertridents:common
+[16:24:11] [main/INFO]: Dispatching loading event for config bettertridents-common.toml
+[16:24:11] [main/INFO]: Loading Collective version 8.4.
+[16:24:11] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[16:24:12] [main/INFO]: Compression will use libdeflate (macOS ARM64 / Apple Silicon), encryption will use native (macOS ARM64 / Apple Silicon)
+[16:24:12] [main/INFO]: Loading Naturally Trimmed config from config file
+[16:24:13] [main/INFO]: Constructing components for puzzleslib:common
+[16:24:14] [main/INFO]: [STDOUT]: Raknetify: Using leak detector level SIMPLE
+[16:24:14] [main/INFO]: [ServerCore] Loaded V1.5.13+1.21.6!
+[16:24:14] [main/INFO]: Initializing Silk
+[16:24:15] [main/INFO]: Initializing Terra Fabric mod...
+[16:24:15] [main/INFO]: Veinminer Version: 2.4.8 (fabric)
+[16:24:15] [main/INFO]: [voicechat] Compatibility version 18
+[16:24:15] [main/INFO]: [voicechat] Loading plugins
+[16:24:15] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:24:15] [main/INFO]: [voicechat] Initializing plugins
+[16:24:15] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:24:15] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[16:24:15] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[16:24:15] [main/INFO]: Initializing 'TCD Commons API' 3.12.8-beta.1+fabric-1.21.6 as 'TCDCommonsServer'.
+[16:24:15] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:24:15] [DefaultDispatcher-worker-1/INFO]: [STDOUT]: [VeinminerUpdater] veinminer is up to date
+[16:24:15] [main/INFO]: Data generation for dynamic pack resources provided by 'bettertridents' took 326ms
+[16:24:16] [main/INFO]: Loading config packs...
+[16:24:16] [main/INFO]: Loading config pack "TARTARUS:TARTARUS"
+[16:24:16] [main/INFO]: Loaded config pack "TARTARUS:TARTARUS" v0.5.0 by Jaddot in 291.924333ms.
+[16:24:17] [main/INFO]: Loading config pack "REIMAGEND:REIMAGEND"
+[16:24:17] [main/INFO]: Loaded config pack "REIMAGEND:REIMAGEND" v2.3.7 by Aureus, RogueShade in 905.651542ms.
+[16:24:17] [main/INFO]: Loading ZIP archive: default.zip
+[16:24:18] [main/INFO]: Loading config pack "OVERWORLD:OVERWORLD"
+[16:24:19] [main/INFO]: Loaded config pack "OVERWORLD:OVERWORLD" v1.5.2 by Astrash, Sancires, Aureus, RogueShade in 2230.891208ms.
+[16:24:19] [main/INFO]: Loaded packs.
+[16:24:19] [main/INFO]: Registering biomes...
+[16:24:19] [main/INFO]: Terra biomes registered.
+[16:24:19] [main/INFO]: Loading world with config pack TARTARUS
+[16:24:19] [main/INFO]: Created world type "terra:tartarus/tartarus"
+[16:24:19] [main/INFO]: Loading world with config pack OVERWORLD
+[16:24:19] [main/INFO]: Created world type "terra:overworld/overworld"
+[16:24:19] [main/INFO]: Loading world with config pack REIMAGEND
+[16:24:19] [main/INFO]: Created world type "terra:reimagend/reimagend"
+[16:24:19] [main/INFO]: Loading world with config pack REIMAGEND
+[16:24:19] [main/INFO]: Loading world with config pack OVERWORLD
+[16:24:19] [main/INFO]: Loading world with config pack TARTARUS
+[16:24:19] [main/INFO]: Injecting flora into Terra biomes...
+[16:24:19] [main/INFO]: Doing preset tag garbage....
+[16:24:19] [main/INFO]: Doing biome tag garbage....
+[16:24:19] [main/INFO]: Injecting flora into Terra biomes...
+[16:24:20] [Worker-Main-3/ERROR]: Invalid path in mod resource-pack mr_vanilla_backpacks: backpacks:function/.DS_Store, ignoring
+[16:24:20] [Worker-Main-3/ERROR]: Invalid path in mod resource-pack mr_vanilla_backpacks: backpacks:function/bp/container/.DS_Store, ignoring
+[16:24:20] [Worker-Main-3/ERROR]: Invalid path in mod resource-pack mr_vanilla_backpacks: backpacks:function/bp/.DS_Store, ignoring
+[16:24:20] [main/INFO]: Loaded 1682 recipes
+[16:24:20] [main/INFO]: Loaded 1785 advancements
+[16:24:20] [main/INFO]: Loaded 1 moobloom variants
+[16:24:20] [main/INFO]: Loaded 32 entity animations
+[16:24:20] [main/INFO]: Loaded 45 chiseling recipes
+[16:24:20] [ForkJoinPool.commonPool-worker-6/INFO]: Loaded 60 translation keys
+[16:24:20] [main/WARN]: Recipe polydecorations:canvas_clone can't be placed due to empty ingredients and will be ignored
+[16:24:20] [main/INFO]: Applied 304 biome modifications to 215 of 299 new biomes in 7.608 ms
+[16:24:20] [Server thread/INFO]: Initialized mcCoroutineScope (MinecraftServer as executor)
+[16:24:20] [Server thread/INFO]: Dispatching loading event for config bettertridents-server.toml
+[16:24:20] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[16:24:20] [Server thread/INFO]: Loading properties
+[16:24:20] [Server thread/INFO]: Default game type: SURVIVAL
+[16:24:20] [Server thread/INFO]: Generating keypair
+[16:24:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:c775:412d:589:7b1e%utun5
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:f715:5175:436d:fee0%utun4
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:5fe8:12fc:8e94:d637%utun3
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:ce81:b1c:bd2c:69e%utun2
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:ea3f:9065:f6fe:5a6c%utun1
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:14e0:1cf2:cf78:9713%utun0
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:c851:29ff:feb7:5643%llw0
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:c851:29ff:feb7:5643%awdl0
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:ab:6a4:5c76:ee21%en1
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /192.168.5.241
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:0:0:0:1%lo0
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /0:0:0:0:0:0:0:1%lo0
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /127.0.0.1
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: Using default channel type
+[16:24:20] [Server thread/INFO]: Preparing level "world"
+[16:24:20] [Server thread/INFO]: Registered seed 4798973294594826147 to sampler 1
+[16:24:21] [Server thread/INFO]: Registered seed 4798973294594826147 to sampler 1
+[16:24:21] [Server thread/INFO]: Registered seed 4798973294594826147 to sampler 1
+[16:24:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[16:24:25] [Server thread/INFO]: Time elapsed: 4397 ms
+[16:24:25] [Server thread/INFO]: Done (4.578s)! For help, type "help"
+[16:24:25] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[16:24:55] [Netty Server IO #2/WARN]: @Redirect conflict. Skipping raknetify-fabric.mixins.json:server.MixinServerLoginNetworkHandler from mod raknetify->@Redirect::stopCompressionIfStreamingCompressionExists(Lnet/minecraft/server/MinecraftServer;)I with priority 900, already redirected by fabric-networking-api-v1.mixins.json:ServerLoginNetworkHandlerMixin from mod fabric-networking-api-v1->@Redirect::removeLateCompressionPacketSending(Lnet/minecraft/server/MinecraftServer;)I with priority 1000
+[16:24:55] [User Authenticator #1/INFO]: UUID of player BlueNinjaKitten is 00d3519c-24a6-423c-89b1-c72dca49e203
+[16:24:56] [Server thread/INFO]: BlueNinjaKitten[/127.0.0.1:49867] logged in with entity id 49 at (-52.425473723595715, 126.45965639136872, -154.7851740151841)
+[16:24:56] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[16:24:56] [Server thread/INFO]: BlueNinjaKitten joined the game
+[16:24:56] [ForkJoinPool.commonPool-worker-7/INFO]: Loaded 1 player data objects (took 0s 152ms)
+[16:24:56] [Server thread/INFO]: [voicechat] Received secret request of BlueNinjaKitten (18)
+[16:24:56] [Server thread/INFO]: [voicechat] Sent secret to BlueNinjaKitten
+[16:24:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 00d3519c-24a6-423c-89b1-c72dca49e203
+[16:24:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 00d3519c-24a6-423c-89b1-c72dca49e203
+[16:24:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player BlueNinjaKitten (00d3519c-24a6-423c-89b1-c72dca49e203) successfully connected to voice chat
+[16:25:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[16:25:06] [Server thread/WARN]: BlueNinjaKitten moved too quickly! 2.4552248614375003,-3.4756565468476737,-17.592891530345923
+[16:25:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11154ms or 223 ticks behind
+[16:25:45] [Worker-Main-7/WARN]: Empty or non-existent pool: kaisyn:village/beach_lighthouse/villager_lighthouse_master
+[16:26:01] [Server thread/INFO]: BlueNinjaKitten has made the advancement ['X' Marks the Spot]
+[16:32:06] [Worker-Main-1/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1148}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1147}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1146}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1145}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1144}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1143}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1142}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1141}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1140}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1139}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1138}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=25, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=26, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=27, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=28, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=29, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=30, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -72], pos: class_2338{x=-289, y=31, z=-1137}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=25, z=-1136}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=26, z=-1136}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=27, z=-1136}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=28, z=-1136}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=29, z=-1136}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=30, z=-1136}, status: minecraft:features
+[16:32:15] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-19, -71], pos: class_2338{x=-289, y=31, z=-1136}, status: minecraft:features
+[16:33:12] [Server thread/INFO]: BlueNinjaKitten has made the advancement [Monster Hunter]
+[16:33:46] [Server thread/INFO]: Villager class_1646['Villager'/2990, l='ServerLevel[world]', x=-291.59, y=69.00, z=-1026.30] died, message: 'Villager hit the ground too hard while trying to escape Zombie'
+[16:34:03] [Server thread/INFO]: Villager class_1646['Villager'/2985, l='ServerLevel[world]', x=-272.94, y=76.54, z=-1029.26] died, message: 'Villager was slain by Zombie'
+[16:35:59] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Spectator Mode]
+[16:36:29] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Creative Mode]
+[16:44:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 00d3519c-24a6-423c-89b1-c72dca49e203 timed out
+[16:44:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player BlueNinjaKitten
+[16:44:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to BlueNinjaKitten
+[16:44:38] [Server thread/INFO]: Locating element nova_structures:lone_citadel took 53811 ms
+[16:44:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 53865ms or 1077 ticks behind
+[16:44:38] [Server thread/INFO]: BlueNinjaKitten lost connection: Disconnected
+[16:44:38] [Server thread/INFO]: BlueNinjaKitten left the game
+[16:44:38] [Server thread/INFO]: [voicechat] Disconnecting client BlueNinjaKitten
+[16:44:43] [User Authenticator #2/INFO]: UUID of player BlueNinjaKitten is 00d3519c-24a6-423c-89b1-c72dca49e203
+[16:44:43] [Server thread/INFO]: BlueNinjaKitten[/127.0.0.1:49953] logged in with entity id 6070 at (-364.30000001192093, 42.990336839349936, -940.0423334845202)
+[16:44:43] [Server thread/INFO]: Loaded 1 player data objects (took 0s 0ms)
+[16:44:43] [Server thread/INFO]: BlueNinjaKitten joined the game
+[16:44:43] [Server thread/INFO]: [voicechat] Received secret request of BlueNinjaKitten (18)
+[16:44:43] [Server thread/INFO]: [voicechat] Sent secret to BlueNinjaKitten
+[16:44:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 00d3519c-24a6-423c-89b1-c72dca49e203
+[16:44:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 00d3519c-24a6-423c-89b1-c72dca49e203
+[16:44:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player BlueNinjaKitten (00d3519c-24a6-423c-89b1-c72dca49e203) successfully connected to voice chat
+[16:45:11] [Server thread/INFO]: Locating element nova_structures:lone_citadel took 175 ms
+[16:45:14] [Server thread/INFO]: [BlueNinjaKitten: Teleported BlueNinjaKitten to -24319.500000, 42.990337, 4128.500000]
+[16:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10298ms or 205 ticks behind
+[16:45:44] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Spectator Mode]
+[16:45:45] [Server thread/INFO]: BlueNinjaKitten has made the advancement [Frozen Remnants]
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24318, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24317, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24316, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24315, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24314, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24313, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24312, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24311, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24310, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24309, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24308, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24307, y=76, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=70, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=71, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=72, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=73, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=74, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=75, z=4175}, status: minecraft:features
+[16:45:46] [Worker-Main-1/ERROR]: Detected setBlock in a far chunk [-1520, 260], pos: class_2338{x=-24306, y=76, z=4175}, status: minecraft:features
+[16:45:49] [Server thread/WARN]: BlueNinjaKitten moved too quickly! 4.611709768341825,0.0,9.53892220025773
+[16:45:51] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Creative Mode]
+[16:46:14] [Server thread/WARN]: BlueNinjaKitten moved too quickly! 3.265844312572881,3.3750001340163607,9.148295208705349
+[16:46:30] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[16:46:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[16:47:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[16:47:28] [Worker-Main-5/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[16:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2093ms or 41 ticks behind
+[16:48:00] [Server thread/WARN]: BlueNinjaKitten moved too quickly! -0.21275036288352567,4.124979672633202,-10.129747825587401
+[16:48:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[16:49:02] [Worker-Main-5/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[16:49:02] [Worker-Main-5/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[16:49:13] [Server thread/INFO]: [BlueNinjaKitten: Killed 68 entities]
+[16:49:18] [Worker-Main-5/WARN]: [net.minecraft.class_3499] Serialization errors:
+:
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+  Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[16:49:19] [Worker-Main-6/WARN]: [net.minecraft.class_3499] Serialization errors:
+: Failed to decode value '[{base:0.13333332538604736d,id:"minecraft:generic.movement_speed"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.movement_speed
+[16:49:31] [Server thread/INFO]: [BlueNinjaKitten: Killed 35 entities]
+[16:49:36] [Server thread/INFO]: [BlueNinjaKitten: Teleported BlueNinjaKitten to 0.500000, 100.000000, 0.500000]
+[16:49:52] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Survival Mode]
+[16:50:01] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Creative Mode]
+[16:50:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[16:50:49] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Survival Mode]
+[16:51:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8285ms or 165 ticks behind
+[16:51:13] [Server thread/INFO]: [BlueNinjaKitten: Set own game mode to Creative Mode]
+[16:51:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7538ms or 150 ticks behind
+[16:51:44] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:5c1b:f4ff:feb7:a265%bridge101
+[16:51:44] [Server thread/INFO]: Using default channel type
+[16:51:44] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /172.16.48.1
+[16:51:44] [Server thread/INFO]: Using default channel type
+[16:51:44] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /fe80:0:0:0:5c1b:f4ff:feb7:a264%bridge100
+[16:51:44] [Server thread/INFO]: Using default channel type
+[16:51:44] [Server thread/INFO]: [STDOUT]: Starting raknetify server on /192.168.35.1
+[16:51:44] [Server thread/INFO]: Using default channel type
+[16:52:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[16:52:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19577ms or 391 ticks behind
+[16:53:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9577ms or 191 ticks behind
+[16:53:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3312ms or 66 ticks behind
+[16:53:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12432ms or 248 ticks behind
+[16:54:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6214ms or 124 ticks behind
+[16:54:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14015ms or 280 ticks behind
+[16:56:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[17:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2254ms or 45 ticks behind
+[17:01:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[17:02:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[17:02:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9037ms or 180 ticks behind
+[17:03:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[17:05:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4225ms or 84 ticks behind
+[17:06:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10408ms or 208 ticks behind
+[17:06:27] [Server thread/INFO]: Stopping the server
+[17:06:29] [Server thread/INFO]: Stopping server
+[17:06:29] [Server thread/INFO]: Saving players
+[17:06:31] [Server thread/INFO]: BlueNinjaKitten lost connection: Server closed
+[17:06:31] [Server thread/INFO]: BlueNinjaKitten left the game
+[17:06:32] [Server thread/INFO]: Saving worlds
+[17:06:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:06:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:06:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:06:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:06:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:06:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:06:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:06:36] [Server thread/INFO]: Dispatching unloading event for config bettertridents-server.toml
